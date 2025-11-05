@@ -2,40 +2,40 @@
 <testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-05T21:17:48 IST" name="Default suite" finished-at="2025-11-05T21:17:58 IST" duration-ms="10546">
+  <suite started-at="2025-11-05T21:31:06 IST" name="Default suite" finished-at="2025-11-05T21:31:15 IST" duration-ms="9322">
     <groups>
     </groups>
-    <test started-at="2025-11-05T21:17:48 IST" name="Default test" finished-at="2025-11-05T21:17:58 IST" duration-ms="10546">
+    <test started-at="2025-11-05T21:31:06 IST" name="Default test" finished-at="2025-11-05T21:31:15 IST" duration-ms="9322">
       <class name="Tests.EndToEndTestJourney">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.EndToEndTestJourney@4c402120]" started-at="2025-11-05T21:17:48 IST" name="setup" finished-at="2025-11-05T21:17:51 IST" duration-ms="2997" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.EndToEndTestJourney@4c402120]" started-at="2025-11-05T21:31:06 IST" name="setup" finished-at="2025-11-05T21:31:08 IST" duration-ms="2170" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="login()[pri:1, instance:Tests.EndToEndTestJourney@4c402120]" started-at="2025-11-05T21:17:51 IST" name="login" finished-at="2025-11-05T21:17:55 IST" duration-ms="4277" status="PASS">
+        <test-method signature="login()[pri:1, instance:Tests.EndToEndTestJourney@4c402120]" started-at="2025-11-05T21:31:08 IST" name="login" finished-at="2025-11-05T21:31:12 IST" duration-ms="3910" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="verifySortedItem()[pri:2, instance:Tests.EndToEndTestJourney@4c402120]" started-at="2025-11-05T21:17:55 IST" name="verifySortedItem" finished-at="2025-11-05T21:17:55 IST" duration-ms="205" status="PASS">
+        <test-method signature="verifySortedItem()[pri:2, instance:Tests.EndToEndTestJourney@4c402120]" started-at="2025-11-05T21:31:12 IST" name="verifySortedItem" finished-at="2025-11-05T21:31:12 IST" duration-ms="256" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySortedItem -->
-        <test-method signature="verifyItemsCountAddedToCart()[pri:3, instance:Tests.EndToEndTestJourney@4c402120]" started-at="2025-11-05T21:17:55 IST" name="verifyItemsCountAddedToCart" finished-at="2025-11-05T21:17:58 IST" duration-ms="2360" status="PASS">
+        <test-method signature="verifyItemsCountAddedToCart()[pri:3, instance:Tests.EndToEndTestJourney@4c402120]" started-at="2025-11-05T21:31:12 IST" name="verifyItemsCountAddedToCart" finished-at="2025-11-05T21:31:15 IST" duration-ms="2373" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyItemsCountAddedToCart -->
-        <test-method signature="verifyUserIsOnCartPage()[pri:4, instance:Tests.EndToEndTestJourney@4c402120]" started-at="2025-11-05T21:17:58 IST" name="verifyUserIsOnCartPage" finished-at="2025-11-05T21:17:58 IST" duration-ms="26" status="PASS">
+        <test-method signature="verifyUserIsOnCartPage()[pri:4, instance:Tests.EndToEndTestJourney@4c402120]" started-at="2025-11-05T21:31:15 IST" name="verifyUserIsOnCartPage" finished-at="2025-11-05T21:31:15 IST" duration-ms="32" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUserIsOnCartPage -->
-        <test-method signature="verifyUserIsOnCheckoutPage()[pri:5, instance:Tests.EndToEndTestJourney@4c402120]" started-at="2025-11-05T21:17:58 IST" name="verifyUserIsOnCheckoutPage" finished-at="2025-11-05T21:17:58 IST" duration-ms="79" status="PASS">
+        <test-method signature="verifyUserIsOnCheckoutPage()[pri:5, instance:Tests.EndToEndTestJourney@4c402120]" started-at="2025-11-05T21:31:15 IST" name="verifyUserIsOnCheckoutPage" finished-at="2025-11-05T21:31:15 IST" duration-ms="67" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUserIsOnCheckoutPage -->
-        <test-method signature="verifyFinishButton()[pri:6, instance:Tests.EndToEndTestJourney@4c402120]" started-at="2025-11-05T21:17:58 IST" name="verifyFinishButton" finished-at="2025-11-05T21:17:58 IST" duration-ms="356" status="PASS">
+        <test-method signature="verifyFinishButton()[pri:6, instance:Tests.EndToEndTestJourney@4c402120]" started-at="2025-11-05T21:31:15 IST" name="verifyFinishButton" finished-at="2025-11-05T21:31:15 IST" duration-ms="303" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyFinishButton -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Tests.EndToEndTestJourney@4c402120]" started-at="2025-11-05T21:17:58 IST" name="teardown" finished-at="2025-11-05T21:17:58 IST" duration-ms="164" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Tests.EndToEndTestJourney@4c402120]" started-at="2025-11-05T21:31:15 IST" name="teardown" finished-at="2025-11-05T21:31:15 IST" duration-ms="160" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

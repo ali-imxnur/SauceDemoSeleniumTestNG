@@ -33,7 +33,9 @@ public class EndToEndTestJourney {
         prefs.put("profile.credentials_enable_service", false);
         
         options.setExperimentalOption("prefs", prefs);
-        
+        options.addArguments("--headless=new");
+        options.addArguments("--no-sandbox");
+        options.addArguments("--disable-dev-shm-usage");
         System.out.println("=== Starting Browser ===");
         driver = new ChromeDriver(options);
         driver.manage().window().maximize();
